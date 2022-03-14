@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- header section starts -->
+
+    <header>
+
+        <div id="user">
+            <h3 id="name">davide cifali</h3>
+            <p id="post">front end developer</p>
+        </div>
+
+        <nav id="navbar">
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <!-- header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- about section starts -->
+
+    <section class="about" id="about"> 
+
+        <div>
+            <h1>I am Davide Cifali</h1>
+            <h3>a Front End Developer</h3>
+        </div>
+        
+    </section>
+    
+    <!-- about section ends -->
+
+    <!-- skills section starts -->
+
+    <section class="skills" id="skills">
+
+        <h1 class="heading">
+            my skills
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="img-container">
+                    <img src="images/icon-1.png" alt="">
+                </div>
+                <div class="text-container">
+                    <p>html 5</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-container">
+                    <img src="images/icon-2.png" alt="">
+                </div>
+                <div class="text-container">
+                    <p>css 3</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-container">
+                    <img src="images/icon-3.png" alt="">
+                </div>
+                <div class="text-container">
+                    <p>javascript</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-container">
+                    <img src="images/icon-4.png" alt="">
+                </div>
+                <div class="text-container">
+                    <p>sass</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-container">
+                    <img src="images/icon-5.png" alt="">
+                </div>
+                <div class="text-container">
+                    <p>j query</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-container">
+                    <img src="images/icon-6.png" alt="">
+                </div>
+                <div class="text-container">
+                    <p>react</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-container">
+                    <img src="images/bootstrap.png" alt="">
+                </div>
+                <div class="text-container">
+                    <p>bootstrap</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- skills section ends -->
+
+    <!-- portfolio section starts -->
+
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading">
+            my portfolio
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/Validation Form.png" alt="">
+                <div class="content">
+                    <h3>validation form</h3>
+                    <a href="https://davidecifali.github.io/Form-Validation/" target="_blank" class="btn">view more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Recipe App.png" alt="">
+                <div class="content">
+                    <h3>recipe app</h3>
+                    <a href="https://davidecifali.github.io/Recipe-App" target="_blank" class="btn">view more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Restaurant Website.png" alt="">
+                <div class="content">
+                    <h3>restaurant website</h3>
+                    <a href="https://davidecifali.github.io/Restaurant-Website" target="_blank" class="btn">view more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Real Estate Website.png" alt="">
+                <div class="content">
+                    <h3>real estate website</h3>
+                    <a href="https://davidecifali.github.io/Real-Estate-Website" target="_blank" class="btn">view more</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="btn">
+             <a href="https://github.com/davidecifali" target="_blank" class="btn">view more</a>
+        </div>
+    
+    </section>
+    
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            contact me
+        </h1>
+
+           <form action="https://formsubmit.co/davide.cifali@yahoo.com" method="POST">
+               <input type="text" name="name" id="name" placeholder="name" class="box" required>
+               <input type="email" name="email" id="email" placeholder="Email Address" class="box" required>
+               <input type="hidden" name="_subject" value="New submission!">
+               <textarea name="message" id="message" cols="30" rows="10" placeholder="message" class="box"></textarea>
+               <button type="submit" class="btn">send</button>
+           </form>
+        
+        </section>
+    
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+
+    <footer>
+
+        <div id="icons">
+             <a class="profile-link contact-details" href="https://github.com/davidecifali" target="_blank" ><i class="fab fa-github"></i></a>
+            <a class="profile-link contact-details" id="profile-link" href="https://www.linkedin.com/in/davide-cifali-6538b2127/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <div id="credits">
+            <span>Credits</span>: Photo by <a href="https://unsplash.com/@altumcode?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">AltumCode</a> on <a href="/s/photos/%23programmer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> - 
+            <a href="https://www.flaticon.com/free-icons/bootstrap" title="bootstrap icons">icons created by Freepik - Flaticon</a>
+        </div>
+
+        <div id="copyright">&#169; Copyright <span id="date">2022</span>
+            Davide Cifali.
+        </div>
+
+    </footer>
+    
+    <!-- footer section ends -->
+    
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
